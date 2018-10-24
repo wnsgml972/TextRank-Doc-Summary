@@ -4,7 +4,15 @@
 ## 분석 동기
 
 블로그를 운영하는 블로거로서 만약 블로그를 자동으로 요약해서 글 제일 위에 나타낼 수 있다면
-읽으러 오는 사람에게 얼마나 좋을까? 생각에 문서를 요약하는 프로그램을 생각하게 되었습니다.
+읽으러 오는 사람에게 얼마나 좋을까? 생각에 문서를 요약하는 프로그램을 생각하게 되었습니다.<br/>
+
+먼저 영어 문서의 한에서 tensorflow 를 이용하여 문장을 요약한 것을 학습 시켜주는 프로그램을
+만들었습니다. 하지만 영어 문서의 한에서는 한글 블로그에 문서 요약을 넣을 수 없으므로
+TextRank 를 이용하여 한글 문서에서도 문서 요약을 가능하게 해주는 문서요약시스템을 간단히
+구현해보았습니다.
+
+* [Korea, TextRank-Doc-Summary](https://github.com/wnsgml972/TextRank-Doc-Summary)
+* [English, Tensorflow-Doc-Summary](https://github.com/wnsgml972/Tensorflow-Doc-Summary)
 
 <br/><br/>
 
